@@ -82,7 +82,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <p class="d-flex flex-column">
-                        <span class="text-bold text-lg">DataGuru</span>
+                        <span class="text-bold text-lg">Data Guru</span>
                     </p>
                     <p class="ml-auto d-flex flex-column text-right">
                         <span class="text-success">
@@ -144,7 +144,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <p class="d-flex flex-column">
-                        <span class="text-bold text-lg">Kelas / Paket Keahlian </span>
+                        <span class="text-bold text-lg"> Paket Keahlian </span>
                     </p>
                     <p class="ml-auto d-flex flex-column text-right">
                         <span class="text-success">
@@ -161,14 +161,11 @@
                         </div>
                         <div class="col-md-4">
                             <ul class="chart-legend clearfix">
-                                <li><i class="far fa-circle" style="color: #d4c148"></i> Bisnis kontruksi dan Properti</li>
-                                <li><i class="far fa-circle" style="color: #ba6906"></i> Desain Permodelan dan Informasi Bangunan</li>
-                                <li><i class="far fa-circle" style="color: #ff990a"></i> Elektronika Industri</li>
-                                <li><i class="far fa-circle" style="color: #00a352"></i> Otomasi Industri</li>
-                                <li><i class="far fa-circle" style="color: #2cabe6"></i> Teknik dan Bisnis Sepeda Motor</li>
+                                <li><i class="far fa-circle" style="color: #d4c148"></i> Bisnis Daring dan Pemasaran</li>
+                                <li><i class="far fa-circle" style="color: #ba6906"></i> Otomasisasi Tata Kelola Perkantoran</li>
+                                <li><i class="far fa-circle" style="color: #ff990a"></i> Teknik Komputer dan Jaringan</li>
                                 <li><i class="far fa-circle" style="color: #999999"></i> Rekayasa Perangkat Lunak</li>
-                                <li><i class="far fa-circle" style="color: #0b2e75"></i> Teknik Pemesinan</li>
-                                <li><i class="far fa-circle" style="color: #7980f7"></i> Teknik Pengelasan</li>
+                                <li><i class="far fa-circle" style="color: #0b2e75"></i> Perhotelan</li>
                             </ul>
                         </div>
                     </div>
@@ -234,14 +231,11 @@
             var pieChartCanvasPaket = $('#pieChartPaket').get(0).getContext('2d')
             var pieDataPaket        = {
                 labels: [
-                    'Bisnis kontruksi dan Properti',
-                    'Desain Permodelan dan Informasi Bangunan',
-                    'Elektronika Industri',
-                    'Otomasi Industri',
-                    'Teknik dan Bisnis Sepeda Motor',
+                    'Bisnis Daring dan Pemasaran',
+                    'Otomasisai Tata Kelola Perkantoran',
+                    'Teknik Komputer dan Jaringan',
                     'Rekayasa Perangkat Lunak',
-                    'Teknik Pemesinan',
-                    'Teknik Pengelasan',
+                    'Perhotelan',
                 ],
                 datasets: [
                     {

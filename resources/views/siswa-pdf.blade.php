@@ -36,7 +36,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="4" class="text-center"><strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> :: <a href="">SMK Negeri 1 Jenangan Ponorogo</a>. </strong></th>
+                        <th colspan="4" class="text-center"><strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> :: <a href="">SMK Wikrama 1 Garut</a>. </strong></th>
                     </tr>
                 </tfoot>
             </table>

@@ -3,19 +3,19 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Sistem Informasi Akademik Sekolah</title>
+  <title>Sistem Informasi Kesiswaan</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
   <link rel="stylesheet" href="{{ asset('plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ asset('plugins/toastr/toastr.min.css') }}">
   <link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
-  <link rel="shrotcut icon" href="{{ asset('img/favicon.ico') }}">
+  <link rel="shrotcut icon" href="{{ asset('img/wikrama.png') }}">
 </head>
 <body class="hold-transition login-page" style="background-image: url('{{ asset("img/wallup.jpg") }}'); background-size: cover; background-attachment: fixed;">
   <div class="login-box">
-    <div class="login-logo">
-      <img src="{{ asset('img/logosiakad.png') }}" width="100%" alt="">
-    </div>
+     <div class="login-logo">
+      <img src="{{ asset('img/wikrama.png') }}" width="50%" alt="">
+    </div> 
 
     <div class="login-logo" style="color: white;">
       @yield('page')
@@ -27,7 +27,7 @@
 
     <footer style="color: white;">
       <marquee>
-          <strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> &diams; <a href="http://smkn1jenpo.sch.id/" style="color: white;">SMK Negeri 1 Jenangan Ponorogo</a>. </strong>
+          <strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> &diams; <a href="http://smkwikrama1garut.sch.id/" style="color: white;">SMK Wikrama 1 Garut</a>. </strong>
       </marquee>
     </footer>
   </div>
@@ -92,7 +92,7 @@
 
 @error('id_card')
   <script>
-    toastr.error("Maaf User ini tidak terdaftar sebagai Guru SMKN 1 Jenangan Ponorogo!");
+    toastr.error("Maaf User ini tidak terdaftar sebagai Guru Smk Wikrama 1 Garut!");
   </script>
 @enderror
 @error('guru')
@@ -102,7 +102,7 @@
 @enderror
 @error('no_induk')
   <script>
-    toastr.error("Maaf User ini tidak terdaftar sebagai Siswa SMKN 1 Jenangan Ponorogo!");
+    toastr.error("Maaf User ini tidak terdaftar sebagai Siswa Smk Wikrama 1 Garut!");
   </script>
 @enderror
 @error('siswa')

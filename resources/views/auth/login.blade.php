@@ -35,10 +35,10 @@
     <div class="row mb-1">
       <div class="col-7">
         <div class="icheck-primary">
-          <input type="checkbox" id="remember" class="form-check-input" type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }} disabled>
+          <!-- <input type="checkbox" id="remember" class="form-check-input" type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }} disabled>
           <label for="remember">
             {{ __('Remember Me') }}
-          </label>
+          </label> -->
         </div>
       </div>
       <!-- /.col -->
@@ -56,9 +56,9 @@
       </a>
     @endif
   </p>
-  <p class="mb-0">
+  <!-- <p class="mb-0">
     <a class="text-center" href="{{ route('register') }}">Buat Akun Baru</a>
-  </p>
+  </p> -->
 </div>
 @endsection
 @section('script')
