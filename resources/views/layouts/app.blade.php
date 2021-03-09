@@ -11,17 +11,17 @@
   <link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
   <link rel="shrotcut icon" href="{{ asset('img/wikrama.png') }}">
 </head>
-<body class="hold-transition login-page" style="background-image: url('{{ asset("img/wallup.jpg") }}'); background-size: cover; background-attachment: fixed;">
-  <div class="login-box">
+<body>
+  <div class="">
      <div class="login-logo">
       <img src="{{ asset('img/wikrama.png') }}" width="50%" alt="">
     </div> 
 
-    <div class="login-logo" style="color: white;">
+    <div class="" style="color: white;">
       @yield('page')
     </div>
 
-    <div class="card">
+    <div class="  ">
       @yield('content')
     </div>
 
